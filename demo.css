@@ -1,0 +1,15 @@
+.main{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    background-color:red;
+}
+h1{
+    color:blue;
+    text-align: center;
+}
+ .s-form{
+    border-radius:20px;
+    margin-left:100px;
+    align-items:center;
+ }
