@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: blueviolet;
+    
+}
+.main{
+    width:80%;
+    margin:20px auto;
+}
+.sam{
+    background-color: pink;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+}
+.sam img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin-top: 15px;
+}
+.sam h1{
+    color:#666;
+}
+.section{
+   background-color: white;
+    margin-top:20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba (0,0,0,0,1);
+}
