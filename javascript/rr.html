@@ -8,9 +8,61 @@
         function message(){
             alert("Hello")
         }
+        const buttonclick=()=>{
+            document.getElementById("dateandtime") .innerHTML=new Date()
+        }
+        
+        const printname=()=>{
+             const myname=String(document.getElementById("myname1").value) 
+              document.getElementById("name1") .innerHTML=myname
+        }
+        const sum=()=>{
+            const num1=Number(document.getElementById("num1").value)
+            const num2=Number(document.getElementById("num2").value)
+        const sum=num1+num2
+        document.getElementById("add").innerHTML=sum
+        }
+        const division=()=>{
+            const num1=Number(document.getElementById("num1").value)
+            const num2=Number(document.getElementById("num2").value)
+        const division=num1/num2
+        document.getElementById("divide").innerHTML=division
+        }
+        const sub=()=>{
+            const num1=Number(document.getElementById("num1").value)
+            const num2=Number(document.getElementById("num2").value)
+        const sub=num1-num2
+        document.getElementById("subtract").innerHTML=sub
+        }
+        const mult=()=>{
+            const num1=Number(document.getElementById("num1").value)
+            const num2=Number(document.getElementById("num2").value)
+        const mult=num1*num2
+        document.getElementById("multiple").innerHTML=mult
+        }
+        
+        
     </script>
 </head>
 <body>
+    <input type = "text" name="" id="myname1">
+    <button onclick="printname()" Add name>Add name</button>
+    <p id="name1"></p>
     <button ondblclick="message()">Click me</button>
+    <button onclick="buttonclick()"> Date and Time</button>
+    <p id="dateandtime"></p>
+    <input type="number" name="" id="num1">
+    <input type="number" name="" id="num2">
+    <button onclick="sum()" Add number>Add number</button>
+    <p id="add"></p>
+
+     <button onclick="division()">Division</button>
+     <p id="divide"></p>
+
+     <button onclick="sub()" >Subtraction</button>
+    <p id="subtract"></p>
+
+    <button onclick="mult()">Multiplication</button>
+     <p id="multiple"></p>
 </body>
 </html>
